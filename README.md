@@ -41,3 +41,10 @@ NASA does not endorse any non-U.S. Government entity and is not responsible for 
 ## [Aproveitando AI / ML para detritos marinhos de plástico](!https://spaceterra.org/desafios-2021/)
 
 Os detritos marinhos são uma das ameaças mais comuns à saúde das áreas costeiras, oceanos e hidrovias. Seu desafio é aproveitar a Inteligência Artificial / Aprendizado de Máquina para monitorar, detectar e quantificar a poluição de plástico e aumentar nossa compreensão sobre o uso dessas técnicas para essa finalidade.
+
+# Run Docker File
+## Build
+`$ docker build -t anjosma/jupyter_env . `
+
+## Run
+`$ docker run -p 8888:8888 --name nasa_plastic_marine -v $PWD:/src/ anjosma/jupyter_env`
