@@ -11,6 +11,6 @@ RUN pip install -r requirements.txt
 RUN jupyter contrib nbextension install --user
 RUN jupyter nbextension enable varInspector/main
 
-WORKDIR /src/notebook
+WORKDIR /src/
 
 CMD ["jupyter", "notebook", "--port=8888", "--no-browser", "--ip=0.0.0.0", "--allow-root"]
