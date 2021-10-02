@@ -47,4 +47,4 @@ Os detritos marinhos são uma das ameaças mais comuns à saúde das áreas cost
 `$ docker pull anjosma/jupyter_env `
 
 ## Run
-`$ docker run -p 8888:8888 --name nasa_plastic_marine -v $PWD:/src/ anjosma/jupyter_env`
+`$ docker run -p 8888:8888 --name nasa_plastic_marine -v $PWD:/src/ -d anjosma/jupyter_env`
