@@ -42,7 +42,7 @@ NASA does not endorse any non-U.S. Government entity and is not responsible for 
 
 Os detritos marinhos são uma das ameaças mais comuns à saúde das áreas costeiras, oceanos e hidrovias. Seu desafio é aproveitar a Inteligência Artificial / Aprendizado de Máquina para monitorar, detectar e quantificar a poluição de plástico e aumentar nossa compreensão sobre o uso dessas técnicas para essa finalidade.
 
-# Run Docker File
+# Execution
 ## Install package
 `$ pip install -r requirements `
 
