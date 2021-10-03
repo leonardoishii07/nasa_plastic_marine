@@ -43,8 +43,8 @@ NASA does not endorse any non-U.S. Government entity and is not responsible for 
 Os detritos marinhos são uma das ameaças mais comuns à saúde das áreas costeiras, oceanos e hidrovias. Seu desafio é aproveitar a Inteligência Artificial / Aprendizado de Máquina para monitorar, detectar e quantificar a poluição de plástico e aumentar nossa compreensão sobre o uso dessas técnicas para essa finalidade.
 
 # Run Docker File
-## Build
-`$ docker pull anjosma/jupyter_env `
+## Install package
+`$ pip install -r requirements `
 
 ## Run
-`$ docker run -p 8888:8888 --name nasa_plastic_marine -v $PWD:/src/ -d anjosma/jupyter_env`
+`$ python app.py `
